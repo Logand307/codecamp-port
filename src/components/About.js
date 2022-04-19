@@ -34,9 +34,9 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-1">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded order-1"
             alt="hero"
             src={bioPic}
           />

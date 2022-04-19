@@ -22,7 +22,9 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() =>
+        alert("Message sent! Expect a response within 2 business days.")
+      )
       .catch((error) => alert(error));
   }
 
