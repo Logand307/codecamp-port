@@ -6,6 +6,7 @@ export const projects = [
       "Full-Stack collaborative project in which I was responsible for the Express.js server setup and connecting the SQL database to the front-end. Handlebars.js setup.",
     image: "https://i.imgur.com/FGD6tzW.jpg",
     link: "https://chad-the-forum.herokuapp.com/",
+    github: "https://github.com/cmrotruck/the-forum",
   },
   {
     title: "React Tracks",
@@ -14,6 +15,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://www.smashbros.com/assets_v2/img/fighter/link/main.png",
     link: "https://reedbarger.com",
+    github: "https://github.com/cmrotruck/the-forum",
   },
   {
     title: "DevChat",
@@ -22,6 +24,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://www.smashbros.com/assets_v2/img/fighter/link/main.png",
     link: "https://jsbootcamp.com",
+    github: "https://github.com/cmrotruck/the-forum",
   },
   {
     title: "DevChat",
@@ -30,6 +33,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://www.smashbros.com/assets_v2/img/fighter/link/main.png",
     link: "https://jsbootcamp.com",
+    github: "https://github.com/cmrotruck/the-forum",
   },
   {
     title: "DevChat",
@@ -38,6 +42,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://www.smashbros.com/assets_v2/img/fighter/link/main.png",
     link: "https://jsbootcamp.com",
+    github: "https://github.com/cmrotruck/the-forum",
   },
   {
     title: "DevChat",
@@ -46,6 +51,7 @@ export const projects = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://www.smashbros.com/assets_v2/img/fighter/link/main.png",
     link: "https://jsbootcamp.com",
+    github: "https://github.com/cmrotruck/the-forum",
   },
 ];
 
