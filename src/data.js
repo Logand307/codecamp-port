@@ -3,7 +3,7 @@ export const projects = [
     title: "The Forum",
     subtitle: "Full Stack",
     description:
-      "Full-Stack collaborative project in which I was responsible for the Express.js server setup and connecting the SQL database to the front-end.",
+      "Full-Stack collaborative project in which I was responsible for the Express.js server setup and connecting the SQL database to the front-end. Handlebars.js setup.",
     image: "https://i.imgur.com/FGD6tzW.jpg",
     link: "https://chad-the-forum.herokuapp.com/",
   },
@@ -51,11 +51,33 @@ export const projects = [
 
 export const skills = [
   {
-    title: "The Forum",
-    subtitle: "Full Stack",
-    description:
-      "Full-Stack collaborative project in which I was responsible for the Express.js server setup and connecting the SQL database to the front-end.",
-    image: "https://i.imgur.com/FGD6tzW.jpg",
-    link: "https://chad-the-forum.herokuapp.com/",
+    skill: "HTML5/CSS3",
+  },
+  {
+    skill: "Bootstrap",
+  },
+  {
+    skill: "React",
+  },
+  {
+    skill: "SQL",
+  },
+  {
+    skill: "MongoDB",
+  },
+  {
+    skill: "Node",
+  },
+  {
+    skill: "Object–relational mapping tools (Sequelize, Mongoose)",
+  },
+  {
+    skill: "RESTful APIs",
+  },
+  {
+    skill: "GraphQL",
+  },
+  {
+    skill: "SAS",
   },
 ];
