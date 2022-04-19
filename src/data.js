@@ -75,7 +75,7 @@ export const skills = [
     skill: "Node",
   },
   {
-    skill: "Object–relational mapping tools (Sequelize, Mongoose)",
+    skill: "Object relational mapping tools (Sequelize, Mongoose)",
   },
   {
     skill: "RESTful APIs",
