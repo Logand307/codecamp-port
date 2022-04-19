@@ -21,7 +21,7 @@ export default function Navbar() {
             href="https://drive.google.com/file/d/1V8bwKvor7dBdd2u6YTo2B-8Bkm81oeAN/view?usp=sharing"
             className="mr-5 hover:text-white"
           >
-            Download Resume
+            Resume
           </a>
         </nav>
         <a
