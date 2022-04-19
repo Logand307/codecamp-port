@@ -24,13 +24,13 @@ export default function About() {
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-white font-bold text-lg"
             >
-              Work with me
+              Let's work together!
             </a>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 text-white font-bold rounded text-lg"
             >
-              See what I've been working on
+              See some of my most recent projects.
             </a>
           </div>
         </div>
