@@ -13,11 +13,11 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             I am a full-stack developer, as well as a financial services
-            industry professional. I have years of experience collaborating with
-            high-profile clientele, which led to the discovery of my passion for
-            working with technology and enhancing user experience. I am also
-            skilled in various technologies including JavaScript and the MERN
-            stack.
+            industry professional based in Columbus, OH. I have years of
+            experience collaborating with high-profile clientele, which led to
+            the discovery of my passion for working with technology and
+            enhancing user experience. I am also skilled in various technologies
+            including JavaScript and the MERN stack.
           </p>
           <div className="flex justify-center">
             <a
