@@ -48,3 +48,14 @@ export const projects = [
     link: "https://jsbootcamp.com",
   },
 ];
+
+export const skills = [
+  {
+    title: "The Forum",
+    subtitle: "Full Stack",
+    description:
+      "Full-Stack collaborative project in which I was responsible for the Express.js server setup and connecting the SQL database to the front-end.",
+    image: "https://i.imgur.com/FGD6tzW.jpg",
+    link: "https://chad-the-forum.herokuapp.com/",
+  },
+];
