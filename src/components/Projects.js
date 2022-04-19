@@ -31,7 +31,7 @@ export default function Projects() {
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
-                  <a href={project.link} class="pr-4">
+                  <a href={project.link} class="pr-10">
                     <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
                       Check it out
                     </button>
