@@ -18,13 +18,13 @@ export default function Projects() {
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a key={project.image} className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative overflow-hidden">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-90 hover:opacity-100 pt-8">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-80 hover:opacity-90 pt-8">
                   <h2 className=" tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
