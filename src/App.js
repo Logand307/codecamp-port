@@ -4,20 +4,22 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
 
   console.log(currentPage);
   return (
-    <main className="text-gray-400 bg-gray-900 body-font h-screen">
-      <Navbar setCurrentPage={setCurrentPage} />
-      {currentPage === "About" ? <About /> : null}
-      {currentPage === "Projects" ? <Projects /> : null}
-      {currentPage === "Contact" ? <Contact /> : null}
-      {currentPage === "Skills" ? <Skills /> : null}
-    </main>
+    <div>
+      <main className="min-h-screen text-gray-400 bg-gray-900 body-font">
+        <Navbar setCurrentPage={setCurrentPage} />
+        {currentPage === "About" ? <About /> : null}
+        {currentPage === "Projects" ? <Projects /> : null}
+        {currentPage === "Contact" ? <Contact /> : null}
+        {currentPage === "Skills" ? <Skills /> : null}
+        {/* <Footer setCurrentPage={setCurrentPage} /> */}
+      </main>
+    </div>
   );
 }
 
