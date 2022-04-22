@@ -1,7 +1,7 @@
 import React from "react";
 import bioPic from "../../src/assets/bioedited.png";
 
-export default function About() {
+export default function About({ setCurrentPage }) {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -19,7 +19,7 @@ export default function About() {
             enhancing user experience. I am also skilled in various technologies
             including JavaScript and the MERN stack.
           </p>
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-white font-bold text-lg"
@@ -28,11 +28,12 @@ export default function About() {
             </a>
             <a
               href="#projects"
+              onClick={() => setCurrentPage("Projects")}
               className="ml-4 inline-flex text-gray-400 bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 text-white font-bold rounded text-lg"
             >
               See some of my most recent projects.
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-1">
           <img

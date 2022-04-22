@@ -66,7 +66,7 @@ export default function Contact() {
               onChange={(e) => setName(e.target.value)}
             />
           </div>
-          <div className="relative mb-4">
+          <div className="relative mb-16">
             <label htmlFor="email" className="leading-7 text-sm text-gray-400">
               Email
             </label>
