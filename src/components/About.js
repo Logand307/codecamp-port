@@ -19,19 +19,23 @@ export default function About({ setCurrentPage }) {
             enhancing user experience. I am also skilled in various technologies
             including JavaScript and the MERN stack.
           </p>
-          {/* <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-white font-bold text-lg"
-            >
-              Let's work together!
+          {/* <div className="justify-center mt-14">
+            <a href="https://github.com/Logand307" target="_blank">
+              <img
+                src="https://img.icons8.com/color/144/000000/github--v1.png"
+                alt="Github"
+                className="icon"
+              />
             </a>
             <a
-              href="#projects"
-              onClick={() => setCurrentPage("Projects")}
-              className="ml-4 inline-flex text-gray-400 bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 text-white font-bold rounded text-lg"
+              href="https://www.linkedin.com/in/davisdevelopment/"
+              target="_blank"
             >
-              See some of my most recent projects.
+              <img
+                src="https://img.icons8.com/color/144/000000/linkedin.png"
+                alt="LinkedIn"
+                className="icon"
+              />
             </a>
           </div> */}
         </div>

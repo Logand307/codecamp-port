@@ -29,9 +29,9 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="relative">
+    <section className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
             height="100%"
@@ -43,12 +43,31 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=4507+Pepper+Berry+Ln&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
+        </div> */}
+        <div className="justify-center mt-14 ml-1 mr-14">
+          <a href="https://github.com/Logand307" target="_blank">
+            <img
+              src="https://img.icons8.com/color/144/000000/github--v1.png"
+              alt="Github"
+              className="icon"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/davisdevelopment/"
+            target="_blank"
+          >
+            <img
+              src="https://img.icons8.com/color/144/000000/linkedin.png"
+              alt="LinkedIn"
+              className="icon"
+            />
+          </a>
         </div>
         <form
           netlify
           name="contact"
           onSubmit={handleSubmit}
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-relative w-full md:py-8 mt-8 md:mt-0"
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
