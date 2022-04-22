@@ -11,7 +11,7 @@ function App() {
 
   console.log(currentPage);
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-gray-900 body-font h-screen">
       <Navbar setCurrentPage={setCurrentPage} />
       {currentPage === "About" ? <About /> : null}
       {currentPage === "Projects" ? <Projects /> : null}
