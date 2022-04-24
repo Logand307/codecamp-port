@@ -86,4 +86,10 @@ export const skills = [
   {
     skill: "SAS",
   },
+  {
+    skill: "Unit Testing",
+  },
+  {
+    skill: "Express",
+  },
 ];
