@@ -72,7 +72,7 @@ export const skills = [
     skill: "MongoDB",
   },
   {
-    skill: "Node",
+    skill: "Javascript",
   },
   {
     skill: "Object relational mapping tools (Sequelize, Mongoose)",
@@ -84,7 +84,7 @@ export const skills = [
     skill: "GraphQL",
   },
   {
-    skill: "SAS",
+    skill: "Node",
   },
   {
     skill: "Unit Testing",
