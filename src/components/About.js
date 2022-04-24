@@ -17,6 +17,7 @@ export default function About({ setCurrentPage }) {
             technology and enhancing user experience. I am skilled in various
             technologies including JavaScript and the MERN stack.
           </p>
+
           {/* <div className="justify-center mt-14">
             <a href="https://github.com/Logand307" target="_blank">
               <img
@@ -44,7 +45,7 @@ export default function About({ setCurrentPage }) {
             src={bioPic}
           />
         </div>
-        <div className="">
+        {/* <div className="">
           <a href="https://github.com/Logand307" target="_blank">
             <img
               src="https://img.icons8.com/color/96/000000/github--v1.png"
@@ -62,7 +63,7 @@ export default function About({ setCurrentPage }) {
               className="icon"
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

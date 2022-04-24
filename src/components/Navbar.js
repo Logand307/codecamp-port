@@ -9,7 +9,7 @@ export default function Navbar({ setCurrentPage }) {
           <a
             href="#about"
             onClick={() => setCurrentPage("About")}
-            className="ml-3 text-2xl font-bold"
+            className="ml-3 text-3xl font-bold "
           >
             Logan Davis
           </a>

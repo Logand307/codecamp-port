@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -18,7 +18,7 @@ function App() {
         {currentPage === "Projects" ? <Projects /> : null}
         {currentPage === "Contact" ? <Contact /> : null}
         {currentPage === "Skills" ? <Skills /> : null}
-        {/* <Footer setCurrentPage={setCurrentPage} /> */}
+        <Footer setCurrentPage={setCurrentPage} />
       </main>
     </div>
   );
