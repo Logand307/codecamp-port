@@ -18,7 +18,7 @@ export const projects = [
     github: "https://github.com/Logand307/pizza-hunt",
   },
   {
-    title: "React Portfolio",
+    title: "React Photographer Portfolio",
     subtitle: "React",
     description:
       "The React Photographer Portfolio is a front-end portfolio made for a photographer that works with local businesses. It is built with React and includes a combination of the React Testing Library and Jest to perform Unit Tests that align with best practices. The app is deployed via Heroku.",
