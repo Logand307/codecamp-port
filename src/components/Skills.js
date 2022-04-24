@@ -12,8 +12,8 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            My skills include, but are not limited to those listed immediately
-            below.
+            The technologies that I work with most often are listed below. I am
+            always open to learning new languages and frameworks.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-3 -mx-2">
