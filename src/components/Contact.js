@@ -30,7 +30,7 @@ export default function Contact() {
 
   return (
     <section className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap pb-10 relative flex-shrink">
         {/* <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe
             width="100%"
@@ -53,7 +53,7 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">Let's work together!</p>
+          {/* <p className="leading-relaxed mb-5">Let's work together!</p> */}
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
