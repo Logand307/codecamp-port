@@ -36,6 +36,33 @@ export default function Navbar({ setCurrentPage }) {
             Resume
           </a>
         </nav>
+        <ul class="flex flex-wrap flex items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+          <li>
+            <div className="img-link">
+              <a href="https://github.com/Logand307" target="_blank">
+                <img
+                  src="https://img.icons8.com/color/48/000000/github--v1.png "
+                  alt="Github"
+                  className="icon"
+                />
+              </a>
+            </div>
+          </li>
+          <li>
+            <div className="img-link">
+              <a
+                href="https://www.linkedin.com/in/logandavisdev/"
+                target="_blank"
+              >
+                <img
+                  src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"
+                  alt="Github"
+                  className="icon"
+                />
+              </a>
+            </div>
+          </li>
+        </ul>
         <a
           href="#contact"
           onClick={() => setCurrentPage("Contact")}
