@@ -18,7 +18,7 @@ export default function About({ setCurrentPage }) {
             technologies including JavaScript and the MERN stack.
           </p>
 
-          {/* <div className="justify-center mt-14">
+          <div className="justify-center mt-14">
             <a href="https://github.com/Logand307" target="_blank">
               <img
                 src="https://img.icons8.com/color/144/000000/github--v1.png"
@@ -36,7 +36,7 @@ export default function About({ setCurrentPage }) {
                 className="icon"
               />
             </a>
-          </div> */}
+          </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-1 md:flex flex-row pt-10">
           <img
