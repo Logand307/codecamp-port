@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 // import Footer from "./components/Footer";
+// import Resume from "./components/Resume";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -18,6 +19,7 @@ function App() {
         {currentPage === "Projects" ? <Projects /> : null}
         {currentPage === "Contact" ? <Contact /> : null}
         {currentPage === "Skills" ? <Skills /> : null}
+        {/* {currentPage === "Resume" ? <Resume /> : null} */}
         {/* <Footer setCurrentPage={setCurrentPage} /> */}
       </main>
     </div>

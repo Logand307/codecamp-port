@@ -35,6 +35,14 @@ export default function Navbar({ setCurrentPage }) {
           >
             Resume
           </a>
+
+          {/* <a
+            href="#resume"
+            onClick={() => setCurrentPage("Resume")}
+            className="mr-5 hover:text-white text-xl text-xl"
+          >
+            Resume
+          </a> */}
         </nav>
         <ul class="flex flex-wrap flex items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>

@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "The Forum",
-    subtitle: "Full Stack",
+    subtitle: "Node.js, Express.js, mySQL2, Sequelize, Semantic UI",
     description:
       "The Forum is a full-stack application that we created because we wanted people to have a comfortable place to discuss the topics that they are most interested in. This is a collaborative project in which I was responsible for the Express.js server setup and API routes to connect the SQL database with the front-end Handlebars.js setup.",
     image: "https://i.imgur.com/FGD6tzW.jpg",
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "Pizza Hunt",
-    subtitle: "Full Stack",
+    subtitle: "Node.js, Express.js, MongoDB, Mongoose, IndexedDB",
     description:
       "Pizza Hunt is a web application that features HTML5, CSS3, a scalable database via MongoDB/Mongoose and PWA functionality that allows user to interact with database while offline. The user can create their own post, as well as interact with existing posts and conversations. The application is deployed via Heroku using MongoDB Atlas.",
     image: "https://i.imgur.com/Mhpt5RU.jpg",
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: "React Photographer Portfolio",
-    subtitle: "React",
+    subtitle: "React.js, Node.js, HTML5, CSS3",
     description:
       "The React Photographer Portfolio is a front-end portfolio made for a photographer that works with local businesses. It is built with React and includes a combination of the React Testing Library and Jest to perform Unit Tests that align with best practices. The app is deployed via Heroku.",
     image: "https://i.imgur.com/sHlh5kI.jpg",
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     title: "Social-Network-API",
-    subtitle: "MongoDB and Mongoose",
+    subtitle: "Node.js, Express.js, MongoDB, Mongoose, RESTful APIs",
     description:
       "The Social-Network-API is the back-end for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. The application uses Express.js for routing, a MongoDB database, and the Mongoose ODM. The user can utilize an API testing platform such as Insomnia or Postman to confirm functionality.",
     image: "https://i.imgur.com/HE9VM87.png",
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     title: "Bootcamp Zoo",
-    subtitle: "MERN Stack",
+    subtitle: "MongoDB, Mongoose, Express.JS, graphQL, Node.js, Semantic UI",
     description:
       "The bootcamp zoo is web application dedicated to animal habits and conservation efforts. We made this because we want to promote animal welfare and affect change. This application uses the MERN stack, which includes React for the front-end and a MongoDB database implemented for the back-end. This was a collaborative project in which I was responsible for the back-end and graphQL routes.",
     image: "https://i.imgur.com/5Uxj4B2.jpg",
