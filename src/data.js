@@ -13,7 +13,7 @@ export const projects = [
     title: "Pizza Hunt",
     subtitle: "HTML5, CSS3, Node.js, Express.js, MongoDB, Mongoose, IndexedDB",
     description:
-      "Appication where users are able to collaborate with one another and update the database while offline with data persistence.",
+      "Application where users are able to collaborate with one another and update the database while offline with data persistence.",
     image: "https://i.imgur.com/Mhpt5RU.jpg",
     link: "https://shielded-basin-55815.herokuapp.com/",
     github: "https://github.com/Logand307/pizza-hunt",
