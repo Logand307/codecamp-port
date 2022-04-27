@@ -10,7 +10,6 @@ import Skills from "./components/Skills";
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
 
-  console.log(currentPage);
   return (
     <div>
       <main className="min-h-screen text-gray-400 bg-gray-900 body-font">
