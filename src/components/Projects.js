@@ -1,17 +1,18 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import { BriefcaseIcon } from "@heroicons/react/solid";
 
 export default function Projects() {
   return (
     <section className="text-white bg-gray-900 body-font h-fit sticky pb-14 ">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+          <CodeIcon className="mx-auto inline-block w-10 mb-4 text-gray-400" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-400">
             Check out some of my past work below!
           </p>
         </div>

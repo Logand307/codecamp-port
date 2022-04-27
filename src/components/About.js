@@ -1,5 +1,6 @@
 import React from "react";
 import bioPic from "../../src/assets/bioedited.png";
+import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 
 export default function About({ setCurrentPage }) {
   return (
@@ -14,29 +15,11 @@ export default function About({ setCurrentPage }) {
           <p className="mb-2 leading-relaxed">
             I have years of experience collaborating with high-profile
             clientele, which led to the discovery of my passion for working with
-            technology and enhancing user experience. I am skilled in various
-            technologies including JavaScript and the MERN stack.
+            technology and enhancing user experience. I have completed a
+            full-stack web development bootcamp at The Ohio State University
+            College of Engineering, and am skilled in various technologies
+            including JavaScript and the MERN stack.
           </p>
-
-          {/* <div className="justify-center mt-14">
-            <a href="https://github.com/Logand307" target="_blank">
-              <img
-                src="https://img.icons8.com/color/144/000000/github--v1.png"
-                alt="Github"
-                className="icon"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/davisdevelopment/"
-              target="_blank"
-            >
-              <img
-                src="https://img.icons8.com/color/144/000000/linkedin.png"
-                alt="LinkedIn"
-                className="icon"
-              />
-            </a>
-          </div> */}
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-1 md:flex flex-row pt-10">
           <img
@@ -45,25 +28,6 @@ export default function About({ setCurrentPage }) {
             src={bioPic}
           />
         </div>
-        {/* <div className="">
-          <a href="https://github.com/Logand307" target="_blank">
-            <img
-              src="https://img.icons8.com/color/96/000000/github--v1.png"
-              alt="Github"
-              className="icon"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/davisdevelopment/"
-            target="_blank"
-          >
-            <img
-              src="https://img.icons8.com/color/96/000000/linkedin.png"
-              alt="LinkedIn"
-              className="icon"
-            />
-          </a>
-        </div> */}
       </div>
     </section>
   );
