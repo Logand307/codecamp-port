@@ -27,15 +27,15 @@ export const projects = [
     link: "https://stormy-beyond-65957.herokuapp.com/",
     github: "https://github.com/Logand307/photo-port",
   },
-  {
-    title: "Email Matching Tutorial",
-    subtitle: "Javascript, Regex",
-    description:
-      "Thorough explanation of what regular expressions are and how they can be used to validate an email address.",
-    image: "https://i.imgur.com/xWmIt55.jpg",
-    link: "https://gist.github.com/Logand307/eb1a1ed240f23ea46be28f235114263a",
-    github: "https://github.com/Logand307/REGEX_Tutorial",
-  },
+  // {
+  //   title: "Email Matching Tutorial",
+  //   subtitle: "Javascript, Regex",
+  //   description:
+  //     "Thorough explanation of what regular expressions are and how they can be used to validate an email address.",
+  //   image: "https://i.imgur.com/xWmIt55.jpg",
+  //   link: "https://gist.github.com/Logand307/eb1a1ed240f23ea46be28f235114263a",
+  //   github: "https://github.com/Logand307/REGEX_Tutorial",
+  // },
   {
     title: "Social-Network-API",
     subtitle: "Node.js, Express.js, MongoDB, Mongoose, RESTful APIs",
@@ -45,15 +45,15 @@ export const projects = [
     link: "https://drive.google.com/file/d/1F_7JyBtJ9JEEB5vrrCy3_k6WlcGLnYj4/view",
     github: "https://github.com/Logand307/Social-Network-API",
   },
-  {
-    title: "Bootcamp Zoo",
-    subtitle: "MongoDB, Mongoose, Express.JS, GraphQL, Node.js, Semantic UI",
-    description:
-      "Application where users can be informed on animal habitats and conservation efforts, and donate to the cause of their choice.",
-    image: "https://i.imgur.com/5Uxj4B2.jpg",
-    link: "https://bootcamp-zoo.herokuapp.com/",
-    github: "https://github.com/cmrotruck/bootcamp-zoo",
-  },
+  // {
+  //   title: "Bootcamp Zoo",
+  //   subtitle: "MongoDB, Mongoose, Express.JS, GraphQL, Node.js, Semantic UI",
+  //   description:
+  //     "Application where users can be informed on animal habitats and conservation efforts, and donate to the cause of their choice.",
+  //   image: "https://i.imgur.com/5Uxj4B2.jpg",
+  //   link: "https://bootcamp-zoo.herokuapp.com/",
+  //   github: "https://github.com/cmrotruck/bootcamp-zoo",
+  // },
 ];
 
 export const skills = [
