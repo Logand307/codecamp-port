@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Shop-Shop",
     subtitle:
-      "MongoDB, Mongoose, Express.js, Node.js, React.js, Global State, Stripe Payment Platform",
+      "MongoDB, Mongoose, GraphQL, Express.js, Node.js, React.js, Global State, Stripe Payment Platform",
     description:
       "Shopify clone where users can simulate purchasing experience after being authenticated.",
     image: "https://i.imgur.com/ofndBSp.jpg",
