@@ -22,7 +22,8 @@ export const projects = [
 
   {
     title: "React Photographer Portfolio",
-    subtitle: "React.js, Node.js, HTML5, CSS3",
+    subtitle:
+      "React.js, Node.js, HTML5, CSS3, Unit Testing via Jest.js framework",
     description:
       "Personal portfolio for a photographer that works with local businesses.",
     image: "https://i.imgur.com/sHlh5kI.jpg",
