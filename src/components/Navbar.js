@@ -30,7 +30,7 @@ export default function Navbar({ setCurrentPage }) {
             Skills
           </a>
           <a
-            href="https://drive.google.com/file/d/1sHiRCbgXYgx_27dLYih47NrEMexBdG6a/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JybPQWP30NZi7iCbSUG8ee6t0o36DldH/view?usp=sharing"
             className="mr-5 hover:text-white text-xl"
           >
             Resume
