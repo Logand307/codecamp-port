@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "The Forum",
+    title: "The-Forum",
     subtitle:
       "Node.js, Express.js, mySQL2, Sequelize, Semantic UI, Agile Practices, Pair Programming",
     description:
@@ -21,7 +21,7 @@ export const projects = [
   },
 
   {
-    title: "React Photographer Portfolio",
+    title: "React-Photographer-Portfolio",
     subtitle:
       "React.js, Node.js, HTML5, CSS3, Unit Testing via Jest.js framework",
     description:
@@ -31,10 +31,10 @@ export const projects = [
     github: "https://github.com/Logand307/photo-port",
   },
   {
-    title: "Email Matching Tutorial",
+    title: "Email-Matching-Tutorial",
     subtitle: "Javascript, Regex",
     description:
-      "Thorough explanation of what regular expressions are and how they can be used to validate an email address.",
+      "Explanation of what regular expressions are and how they can be used to validate an email address.",
     image: "https://i.imgur.com/xWmIt55.jpg",
     link: "https://gist.github.com/Logand307/eb1a1ed240f23ea46be28f235114263a",
     github: "https://github.com/Logand307/REGEX_Tutorial",
@@ -57,14 +57,23 @@ export const projects = [
   //   link: "https://bootcamp-zoo.herokuapp.com/",
   //   github: "https://github.com/cmrotruck/bootcamp-zoo",
   // },
+  // {
+  //   title: "Pizza Hunt",
+  //   subtitle: "HTML5, CSS3, Node.js, Express.js, MongoDB, Mongoose, IndexedDB",
+  //   description:
+  //     "Application where users are able to collaborate with one another and update the database while offline with data persistence.",
+  //   image: "https://i.imgur.com/Mhpt5RU.jpg",
+  //   link: "https://shielded-basin-55815.herokuapp.com/",
+  //   github: "https://github.com/Logand307/pizza-hunt",
+  // },
   {
-    title: "Pizza Hunt",
-    subtitle: "HTML5, CSS3, Node.js, Express.js, MongoDB, Mongoose, IndexedDB",
+    title: "Just-Tech-News",
+    subtitle: "Python, Flask, SQLAlchemy, PyMySQL, MVC Paradigm, HTML5, CSS3",
     description:
-      "Application where users are able to collaborate with one another and update the database while offline with data persistence.",
-    image: "https://i.imgur.com/Mhpt5RU.jpg",
-    link: "https://shielded-basin-55815.herokuapp.com/",
-    github: "https://github.com/Logand307/pizza-hunt",
+      "Minimalist social media application inspired by Hacker News where users can post articles and interact with other users after being authenticated.",
+    image: "https://i.imgur.com/zha3e8x.jpg",
+    link: "https://thawing-basin-57205.herokuapp.com/",
+    github: "https://github.com/Logand307/newsfeed_python",
   },
 ];
 
