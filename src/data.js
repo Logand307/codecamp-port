@@ -23,25 +23,18 @@ export const projects = [
   {
     title: "React-Photographer-Portfolio",
     subtitle:
-      "React.js, Node.js, HTML5, CSS3, Unit Testing via Jest.js framework",
+      "Javascript, React.js, Node.js, HTML5, CSS3, Unit Testing via Jest.js framework",
     description:
       "Personal portfolio for a photographer that works with local businesses.",
     image: "https://i.imgur.com/sHlh5kI.jpg",
     link: "https://stormy-beyond-65957.herokuapp.com/",
     github: "https://github.com/Logand307/photo-port",
   },
-  {
-    title: "Email-Matching-Tutorial",
-    subtitle: "Javascript, Regex",
-    description:
-      "Explanation of what regular expressions are and how they can be used to validate an email address.",
-    image: "https://i.imgur.com/xWmIt55.jpg",
-    link: "https://gist.github.com/Logand307/eb1a1ed240f23ea46be28f235114263a",
-    github: "https://github.com/Logand307/REGEX_Tutorial",
-  },
+
   {
     title: "Social-Network-API",
-    subtitle: "Node.js, Express.js, MongoDB, Mongoose, RESTful APIs",
+    subtitle:
+      "Javascript, Node.js, Express.js, MongoDB, Mongoose, RESTful APIs",
     description:
       "Back-end API for social network that can be validated via Postman or Insomnia.",
     image: "https://i.imgur.com/HE9VM87.png",
@@ -74,6 +67,15 @@ export const projects = [
     image: "https://i.imgur.com/zha3e8x.jpg",
     link: "https://thawing-basin-57205.herokuapp.com/",
     github: "https://github.com/Logand307/newsfeed_python",
+  },
+  {
+    title: "Email-Matching-Tutorial",
+    subtitle: "Javascript, Regex",
+    description:
+      "Explanation of what regular expressions are and how they can be used to validate an email address.",
+    image: "https://i.imgur.com/xWmIt55.jpg",
+    link: "https://gist.github.com/Logand307/eb1a1ed240f23ea46be28f235114263a",
+    github: "https://github.com/Logand307/REGEX_Tutorial",
   },
 ];
 
